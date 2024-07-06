@@ -104,7 +104,7 @@ class ToDoApp:
         else:
             self.tasks = []
 
-if __name__ == "__main__":
-    root = tk.Tk()
-    app = ToDoApp(root)
-    root.mainloop()
+
+root = tk.Tk()
+app = ToDoApp(root)
+root.mainloop()
